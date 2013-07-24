@@ -15,6 +15,6 @@ You now have the dependencies installed, you can get vim from mercurial and proc
             --enable-rubyinterp \
             --enable-pythoninterp \
             --enable-perlinterp \
-            --enable-gui=gtk2 --enable-cscope --prefix=/usr
+            --enable-gui=gtk2 --enable-cscope --with-python-config-dir=/usr/lib/python2.7/config --prefix=/usr
       make VIMRUNTIMEDIR=/usr/share/vim/vim73
       sudo make install
