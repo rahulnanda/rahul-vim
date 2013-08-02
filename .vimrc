@@ -5,6 +5,7 @@ set nocompatible    "run in vim mode
 "set home directory for tag file
 set tags=./tags;/
 
+"For source code: Any text after 80 columns is highlighted in red
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 
 match OverLength /\%81v.\+/
