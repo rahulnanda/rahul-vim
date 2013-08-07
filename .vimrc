@@ -20,6 +20,10 @@ set autoindent
 
 set smartindent
 
+set softtabstop=4
+
+set shiftwidth=4
+
 set ruler
 
 " show partial commands
@@ -89,6 +93,7 @@ autocmd BufReadPost *
 
 execute pathogen#infect()
 
+"enable mouse scrolling
 set mouse=a
 
 "show filename
@@ -135,9 +140,9 @@ if has("cscope")
     " if you want the reverse search order.
     set csto=0
 
-    " add any cscope database in current directory
-    if filereadable("cscope.out")
-        cs add cscope.out  
+    " add cscope database using absolute pathname
+    if filereadable("/home/project/cscope.out")
+        cs add /home/project/cscope.out /home/project 
     " else add the database pointed to by environment variable 
     elseif $CSCOPE_DB != ""
         cs add $CSCOPE_DB
