@@ -42,7 +42,6 @@ set foldmethod=marker
 "set auto change directory
 set autochdir
 
- set nocompatible               " be iMproved
  filetype off                   " required!
 
  set rtp+=~/.vim/bundle/vundle/
