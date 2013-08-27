@@ -24,6 +24,8 @@ set softtabstop=4
 
 set shiftwidth=4
 
+set pastetoggle=<F2>
+
 set ruler
 
 " show partial commands
