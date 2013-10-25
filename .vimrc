@@ -28,6 +28,9 @@ set pastetoggle=<F2>
 
 set ruler
 
+" search while yout type
+set incsearch
+
 " show partial commands
 set showcmd
 
