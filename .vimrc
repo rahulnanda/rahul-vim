@@ -31,6 +31,9 @@ set ruler
 " search while you type
 set incsearch
 
+" highlighted search
+set hlsearch
+
 " show partial commands
 set showcmd
 
