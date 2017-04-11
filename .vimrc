@@ -26,6 +26,8 @@ set shiftwidth=4
 
 set pastetoggle=<F2>
 
+set statusline+=%F
+
 set ruler
 
 " search while you type
